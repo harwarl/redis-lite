@@ -1,0 +1,19 @@
+{
+  "name": "redis-lite",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/harwarl/redis-lite.git",
+  "author": "harwarl <harwarl87@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
