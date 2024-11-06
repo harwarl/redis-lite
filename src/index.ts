@@ -1,3 +1,3 @@
 (async function () {
-  console.log("Starting Redis Server...");
+  console.log("Redis Server is starting...");
 })();
